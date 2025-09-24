@@ -1,0 +1,6 @@
+{
+  "code": "import time\nx = 1\nwhile True:\n    result = x ** 2\n    print(f\"{x}^2 = {result}\", flush=True)\n    x += 1\n    time.sleep(2)",
+  "host": "my-host-01",
+  "ram": 4,
+  "cpu": 2
+}
